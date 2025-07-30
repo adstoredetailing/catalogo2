@@ -1,0 +1,62 @@
+[
+    {
+        "nombre": "Producto DEMO 1",
+        "precio": "$ 1000,00",
+        "categoria": "MICROFIBRAS",
+        "imagen": "laffitte-microfibra-de-secado-80x40.jpg"
+    },
+    {
+        "nombre": "Producto DEMO 2",
+        "precio": "$ 1500,00",
+        "categoria": "MICROFIBRAS",
+        "imagen": "maxshine-microfibra-amarilla-40x60.jpg"
+    },
+    {
+        "nombre": "Producto DEMO 3",
+        "precio": "$ 2000,00",
+        "categoria": "MICROFIBRAS",
+        "imagen": "laffite-microfibra-de-secado-60x40.jpg"
+    },
+    {
+        "nombre": "Producto DEMO 4",
+        "precio": "$ 2500,00",
+        "categoria": "MICROFIBRAS",
+        "imagen": "laffitte-manopla-profesional-microfibra.jpg"
+    },
+    {
+        "nombre": "Producto DEMO 5",
+        "precio": "$ 3000,00",
+        "categoria": "MICROFIBRAS",
+        "imagen": "laffitte-microfibra-multiuso-35x35.jpg"
+    },
+    {
+        "nombre": "Producto DEMO 6",
+        "precio": "$ 3500,00",
+        "categoria": "MICROFIBRAS",
+        "imagen": "laffitte-microfibra-vidrios-35x35.jpg"
+    },
+    {
+        "nombre": "Producto DEMO 7",
+        "precio": "$ 4000,00",
+        "categoria": "MICROFIBRAS",
+        "imagen": "laffitte-manopla-rastas.jpg"
+    },
+    {
+        "nombre": "Producto DEMO 8",
+        "precio": "$ 4500,00",
+        "categoria": "MICROFIBRAS",
+        "imagen": "laffitte-microfibra-multiuso-gris-40x40.jpg"
+    },
+    {
+        "nombre": "Producto DEMO 9",
+        "precio": "$ 5000,00",
+        "categoria": "MICROFIBRAS",
+        "imagen": "maxshine-microfibra-azul-40x40.jpg"
+    },
+    {
+        "nombre": "Producto DEMO 10",
+        "precio": "$ 5500,00",
+        "categoria": "MICROFIBRAS",
+        "imagen": "laffitte-microfibra-multiuso-60x40.jpg"
+    }
+]
