@@ -138,10 +138,10 @@
         "imagen": "wova7-104-renovador-de-caucho-500ml.jpg"
     },
     {
-        "nombre": "ALL DETAIL THICK BLUE GEL O GOLD TIRE 500ML",
+        "nombre": "ALL DETAIL THICK BLUE GEL 500ML",
         "precio": "$ 8400,00",
         "categoria": "GENERAL",
-        "imagen": "all-detail-thick-blue-gel-o-gold-tire-500ml.jpg"
+        "imagen": "all-detail-thick-blue-gel-500ml.jpg"
     },
     {
         "nombre": "WOVA7 108 LIMPIA LLANTAS 5 LTS",
@@ -893,10 +893,5 @@
         "categoria": "GENERAL",
         "imagen": "autocare-pincel.jpg"
     },
-    {
-        "nombre": "LOGO",
-        "precio": "$ 46200,00",
-        "categoria": "GENERAL",
-        "imagen": "logo.png"
-    }
+   
 ]
