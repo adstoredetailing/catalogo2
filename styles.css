@@ -1,7 +1,11 @@
 body {
   margin: 0;
-  background: url('fondo-catalogo.jpg') no-repeat center center fixed;
+  background-image: url('fondo-catalogo.jpg');
+  background-position: center top;
+  background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
+  background-color: #000; /* por si no carga la imagen */
   font-family: 'Poppins', sans-serif;
   color: #fff;
   text-align: center;
