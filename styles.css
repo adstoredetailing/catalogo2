@@ -2,39 +2,70 @@ body {
   margin: 0;
   background: url('fondo-catalogo.jpg') no-repeat center center fixed;
   background-size: cover;
-}
   font-family: 'Poppins', sans-serif;
   color: #fff;
   text-align: center;
 }
+
 header {
   background-color: #111;
   padding: 20px;
 }
+
+/* Logo principal */
 .logo {
   width: 160px;
   display: block;
   margin: 0 auto 10px;
 }
-  .whatsapp-btn {
+
+/* Contenedor header */
+.header-content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* Instagram link */
+.insta-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 14px;
+}
+.insta-link img {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+}
+
+/* WhatsApp botón del header */
+.whatsapp-btn-header {
   display: inline-flex;
   align-items: center;
   gap: 8px;
   color: #25D366;
-  font-weight: 600;
+  font-weight: bold;
   text-decoration: none;
-  margin-top: 5px;
+  font-size: 14px;
 }
-
-.whatsapp-btn img.whatsapp-icon {
-  width: 22px;
-  height: 22px;
+.whatsapp-btn-header img {
+  width: 20px;
+  height: 20px;
   object-fit: contain;
 }
+
 h1 {
   font-size: 2em;
   margin-top: 10px;
 }
+
 .search-bar {
   margin: 20px auto;
   display: flex;
@@ -42,6 +73,7 @@ h1 {
   gap: 10px;
   flex-wrap: wrap;
 }
+
 input, select {
   padding: 10px;
   border-radius: 8px;
@@ -51,15 +83,18 @@ input, select {
   color: white;
   backdrop-filter: blur(5px);
 }
+
 input::placeholder {
   color: #ccc;
 }
+
 main {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   gap: 20px;
   padding: 20px;
 }
+
 .product-card {
   background-color: #1a1a1a;
   padding: 16px;
@@ -89,6 +124,7 @@ main {
   font-size: 0.9em;
   color: #ccc;
 }
+
 footer {
   background-color: #000;
   padding: 20px;
@@ -103,80 +139,30 @@ footer {
   z-index: 999;
   transition: transform 0.2s ease;
 }
-
 .whatsapp-float:hover {
   transform: scale(1.05);
 }
-
 .whatsapp-float img {
   width: 60px;
   height: 60px;
   object-fit: contain;
-@media (max-width: 480px) {
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .search-bar {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .header-content {
+    flex-direction: column;
+    gap: 10px;
+  }
+
   .whatsapp-float img {
     width: 50px;
     height: 50px;
   }
-  @media (max-width: 600px) {
-  .search-bar {
-    flex-direction: column;
-    /* Encabezado general */
-.topbar {
-  background-color: #000;
-  padding: 20px 10px;
-  text-align: center;
-}
-
-.header-content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 10px;
-}
-
-/* Logo principal */
-.logo {
-  width: 160px;
-  display: block;
-}
-
-/* Instagram link */
-.insta-link {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  color: #ffffff;
-  text-decoration: none;
-  font-weight: 600;
-}
-.insta-link img {
-  width: 20px;
-  height: 20px;
-}
-
-/* WhatsApp botón del header */
-.whatsapp-btn-header {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  color: #25D366;
-  font-weight: bold;
-  text-decoration: none;
-}
-.whatsapp-btn-header img {
-  width: 20px;
-  height: 20px;
-}
-
-/* Título del catálogo */
-h1 {
-  font-size: 2em;
-  margin: 20px auto 10px;
-  font-weight: 600;
-  color: white;
-}
-    gap: 10px;
-  }
-}
 }
 
