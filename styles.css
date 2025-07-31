@@ -12,8 +12,9 @@ header {
   padding: 20px;
 }
 .logo {
-  width: 120px;
-  margin-bottom: 10px;
+  width: 160px;
+  display: block;
+  margin: 0 auto 10px;
 }
   .whatsapp-btn {
   display: inline-flex;
@@ -46,6 +47,12 @@ input, select {
   border-radius: 8px;
   border: none;
   font-size: 1em;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white;
+  backdrop-filter: blur(5px);
+}
+input::placeholder {
+  color: #ccc;
 }
 main {
   display: grid;
@@ -110,5 +117,11 @@ footer {
     width: 50px;
     height: 50px;
   }
+  @media (max-width: 600px) {
+  .search-bar {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
 }
 
