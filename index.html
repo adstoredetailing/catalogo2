@@ -10,22 +10,32 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header>
-    <img src="logo.png" alt="ADSTORE Logo" class="logo" />
-    <p>@adstoreboxes · 
-      <a href="https://wa.me/543513980317" target="_blank" class="whatsapp-btn">
-  <img src="whatsapp.png" alt="WhatsApp" class="whatsapp-icon" />
-  <span>Consultar por WhatsApp</span>
-</a>
-    </p>
-    <h1>Catálogo de productos</h1>
-    <div class="search-bar">
-      <input type="text" id="searchInput" placeholder="Buscar producto..." />
-      <select id="categorySelect">
-        <option value="Todas">Todas las categorías</option>
-      </select>
+  <header class="topbar">
+  <div class="header-content">
+    <img src="assets/images/logo.png" alt="ADSTORE Logo" class="logo" />
+    
+    <div class="social-links">
+      <a href="https://www.instagram.com/adstoreboxes" target="_blank" class="insta-link">
+        <img src="assets/images/instagram.png" alt="Instagram" />
+        <span>Instagram</span>
+      </a>
     </div>
-  </header>
+
+    <a href="https://wa.me/543513980317" target="_blank" class="whatsapp-btn-header">
+      <img src="assets/images/whatsapp.png" alt="WhatsApp" />
+      <span>Consultar por WhatsApp</span>
+    </a>
+  </div>
+
+  <h1>Catálogo de productos</h1>
+
+  <div class="search-bar">
+    <input type="text" id="searchInput" placeholder="Buscar producto..." />
+    <select id="categorySelect">
+      <option value="Todas">Todas las categorías</option>
+    </select>
+  </div>
+</header>
 
   <main id="productContainer"></main>
 
