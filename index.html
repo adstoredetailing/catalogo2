@@ -5,31 +5,38 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>ADSTORE – Catálogo</title>
   <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
 </head>
 <body>
-  <header>
-    <img src="logo.png" alt="ADSTORE Logo" class="logo" />
-    <p>@adstoreboxes · 
-      <a href="https://wa.me/543513980317" target="_blank" class="whatsapp-btn">
-        <img src="whatsapp.png" alt="WhatsApp" class="whatsapp-icon" />
-        Consultar por WhatsApp
-      </a>
-    </p>
-    <h1>Catálogo de productos</h1>
-    <div class="search-bar">
-      <input type="text" id="searchInput" placeholder="Buscar producto..." />
-      <select id="categorySelect">
-        <option value="Todas">Todas las categorías</option>
-      </select>
-    </div>
+  <!-- Header -->
+  <header class="header">
+    <img src="assets/images/logo.png" alt="Logo ADSTORE" class="logo" />
+    <a href="https://www.instagram.com/adstoreboxes" target="_blank" class="instagram">@adstoreboxes</a>
   </header>
 
-  <main id="productContainer"></main>
+  <!-- Catálogo -->
+  <main>
+    <div class="catalogo">
+      <h1>Catálogo de productos</h1>
+      <div class="busqueda">
+        <input type="text" placeholder="Buscar producto..." id="searchInput" />
+        <select id="categoryFilter">
+          <option value="Todas">Todas las categorías</option>
+          <!-- Las categorías se completan dinámicamente -->
+        </select>
+      </div>
+      <div id="productos" class="productos-container">
+        <!-- Se cargan dinámicamente los productos -->
+      </div>
+    </div>
+  </main>
 
-  <footer>
-    📍 Pedro Carta Molina 650 – Córdoba Capital<br />
-    © ADSTORE DETAILING
-  </footer>
+  <!-- Botón flotante de WhatsApp -->
+  <a href="https://wa.me/543513980317" target="_blank" class="whatsapp-float">
+    <img src="assets/images/whatsapp.png" alt="WhatsApp" />
+  </a>
 
   <script src="app.js"></script>
 </body>
