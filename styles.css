@@ -22,50 +22,59 @@ header {
 /* Contenedor header */
 .header-content {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  padding: 20px 10px;
+  text-align: center;
+  background-color: #111;
+}
+
+/* Contenedor de redes (Instagram + WhatsApp) */
+.redes-header {
+  display: flex;
   align-items: center;
   justify-content: center;
   gap: 20px;
+  flex-wrap: wrap;
 }
 
-/* Instagram link */
-.insta-link {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  color: #ffffff;
-  text-decoration: none;
-  font-weight: 600;
-  font-size: 14px;
-}
-.insta-link img {
-  width: 20px;
-  height: 20px;
-  object-fit: contain;
-}
-
-/* WhatsApp botón del header */
+/* Enlaces con íconos */
+.insta-link,
 .whatsapp-btn-header {
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  color: #25D366;
-  font-weight: bold;
-  text-decoration: none;
   font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
 }
+
+.insta-link {
+  color: #ffffff;
+}
+
+.whatsapp-btn-header {
+  color: #25D366;
+}
+
+/* Tamaño íconos */
+.insta-link img,
 .whatsapp-btn-header img {
   width: 20px;
   height: 20px;
   object-fit: contain;
 }
 
+/* Título principal */
 h1 {
   font-size: 2em;
-  margin-top: 10px;
+  margin: 10px 0 0 0;
+  font-weight: 600;
+  color: white;
 }
 
+/* Buscador */
 .search-bar {
   margin: 20px auto;
   display: flex;
@@ -88,6 +97,7 @@ input::placeholder {
   color: #ccc;
 }
 
+/* Productos */
 main {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
@@ -125,6 +135,7 @@ main {
   color: #ccc;
 }
 
+/* Footer */
 footer {
   background-color: #000;
   padding: 20px;
@@ -165,4 +176,3 @@ footer {
     height: 50px;
   }
 }
-
