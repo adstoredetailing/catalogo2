@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  background: url('assets/images/fondo-catalogo.jpg') no-repeat center center fixed;
+  background: url('fondo-catalogo.jpg') no-repeat center center fixed;
   background-size: cover;
   font-family: 'Poppins', sans-serif;
   color: #fff;
